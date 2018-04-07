@@ -1,0 +1,21 @@
+{
+  "name": "play-semantic2",
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "main": "./bundles/play-semantic2.umd.js",
+  "es2015": "./esm2015/play-semantic2.js",
+  "module": "./esm5/play-semantic2.es5.js",
+  "typings": "./play-semantic2.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/http": "^5.0.0"
+  }
+}
