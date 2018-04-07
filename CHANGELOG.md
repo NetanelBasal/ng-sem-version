@@ -1,3 +1,17 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/NetanelBasal/ng-sem-version/compare/v1.0.1...v1.1.0) (2018-04-07)
+
+
+### Bug Fixes
+
+* **fix:** dsds ([e1c3855](https://github.com/NetanelBasal/ng-sem-version/commit/e1c3855))
+
+
+### Features
+
+* **da:** dsds d2 ([e4e92a8](https://github.com/NetanelBasal/ng-sem-version/commit/e4e92a8))
+* **new:** ds dsds ([2e3b2d7](https://github.com/NetanelBasal/ng-sem-version/commit/2e3b2d7))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/NetanelBasal/ng-sem-version/compare/v1.0.0...v1.0.1) (2018-04-07)
 
