@@ -12,10 +12,10 @@
     "commit": "git-cz",
     "s": "semantic-release-cli setup",
     "build:lib": "gulp --gulpfile gulpfile.lib.js",
-    "version": "sync-json -v --property version --source package.json src/lib/package.json",
+    "copy:version": "sync-json -v --property version --source package.json dist/package.json",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "prepublish": "cp -r dist/package.json . && cp -r dist/npm-shrinkwrap.json ."
+    "prepublish": "npm run copy:version"
   },
   "config": {
     "commitizen": {
@@ -37,10 +37,6 @@
       {
         "path": "@semantic-release/npm",
         "pkgRoot": "dist"
-      },
-      {
-        "path": "@semantic-release/git",
-        "assets": ["package.json", "npm-shrinkwrap.json"]
       }
     ]
   },
