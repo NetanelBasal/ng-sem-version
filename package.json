@@ -15,7 +15,7 @@
     "version": "sync-json -v --property version --source package.json src/lib/package.json",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "postpublish": "cp -r dist/package.json . && cp -r dist/npm-shrinkwrap.json ."
+    "prepublish": "cp -r dist/package.json . && cp -r dist/npm-shrinkwrap.json ."
   },
   "config": {
     "commitizen": {
@@ -37,6 +37,10 @@
       {
         "path": "@semantic-release/npm",
         "pkgRoot": "dist"
+      },
+      {
+        "path": "@semantic-release/git",
+        "assets": ["package.json", "npm-shrinkwrap.json"]
       }
     ]
   },
