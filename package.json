@@ -9,11 +9,13 @@
     "test": "echo 'success'",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "commit": "git-cz",
     "s": "semantic-release-cli setup",
     "build:lib": "gulp --gulpfile gulpfile.lib.js",
     "version": "sync-json -v --property version --source package.json src/lib/package.json",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postpublish": "cp -r dist/package.json . && cp -r dist/npm-shrinkwrap.json ."
   },
   "config": {
     "commitizen": {
