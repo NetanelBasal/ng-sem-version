@@ -14,7 +14,6 @@
     "build:lib": "gulp --gulpfile gulpfile.lib.js",
     "copy:version": "sync-json -v --property version --source package.json dist/package.json",
     "travis-deploy-once": "travis-deploy-once",
-    "prepublish": "npm run build:lib && npm run copy:version",
     "semantic-release": "semantic-release"
   },
   "config": {
@@ -30,7 +29,10 @@
     ],
     "prepare": [
       "@semantic-release/changelog",
-      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/npm",
+        "pkgRoot": "dist"
+      },
       "@semantic-release/git"
     ],
     "publish": [
