@@ -1,3 +1,11 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/NetanelBasal/ng-sem-version/compare/v1.1.1...v1.2.0) (2018-04-08)
+
+
+### Features
+
+* **test:** dsds ([1cc04c5](https://github.com/NetanelBasal/ng-sem-version/commit/1cc04c5))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/NetanelBasal/ng-sem-version/compare/v1.1.0...v1.1.1) (2018-04-07)
 
