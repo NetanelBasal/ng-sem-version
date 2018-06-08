@@ -1,1 +1,1 @@
-![Demo](https://s15.postimg.cc/twyf7t0cn/akita-cli.gif)
+![Demo](https://media.giphy.com/media/dCDq5fL8AoldTz28L7/giphy.gif)
